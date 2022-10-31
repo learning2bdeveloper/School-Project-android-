@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:padding="30dp">
+
+    <ScrollView android:layout_width="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewRoadbike"
+                android:layout_width="match_parent"
+                android:layout_height="159dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/Roadbike"
+                app:srcCompat="@drawable/roadbike" />
+
+            <ImageView
+                android:id="@+id/imageViewMountainbike"
+                android:layout_width="match_parent"
+                android:layout_height="159dp"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:contentDescription="@string/Mountainbike"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/mountain_bike" />
+
+            <ImageView
+                android:id="@+id/imageViewGravelbike"
+                android:layout_width="match_parent"
+                android:layout_height="159dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/Gravelbike"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/gravel_bike" />
+
+            <TextView
+                android:id="@+id/textViewRoadbike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:text="@string/Roadbike"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewMountainbike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:text="@string/Mountainbike"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewGravelbike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="@string/Gravelbike"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewFoldingbike"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/Foldingbike"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/folding_bike" />
+
+            <ImageView
+                android:id="@+id/imageViewElectricbike"
+                android:layout_width="match_parent"
+                android:layout_height="159dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/Electricbike"
+                app:srcCompat="@drawable/electric_bike" />
+
+            <TextView
+                android:id="@+id/textViewElectricbike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:text="@string/Electricbike"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewFoldingbike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:text="@string/Foldingbike"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </GridLayout>
+    </ScrollView>
+</GridLayout>

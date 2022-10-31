@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CLE</string>
+    <string name="Roadbike">Road Bike</string>
+    <string name="Mountainbike">Mountain Bike</string>
+    <string name="Foldingbike">Folding Bike</string>
+    <string name="Electricbike">Electric Bike</string>
+    <string name="Gravelbike">Gravel Bike</string>
+    <string name="Splashtitle">Bikee</string>
+
+    <string name="mtb_short_meaning">Mountain bikes are designed to go on mountains or on off-road trails, which means they’re chunkier, have knobbly tyres on them, and a frame geometry which makes them better suited for seriously uneven terrain.</string>
+    <string name="mtb_bold_characteristics">Defining characteristics:</string>
+    <string name="mtb_characteristics">Wide, knobbly tyres for traction, and a wide range of gears to help you get up and over mountains or across fields. Some bikes have front suspension but are rigid at the back (‘hardtail’), and some have front and rear suspension for cushioning jumps and drops (‘full suspension’ or ‘full sus’). Others have neither.</string>
+
+    <string name="rb_short_meaning">As the name suggests, road bikes are designed to ride on the road. Can’t all bikes ride on the road, you wonder? They absolutely can. But road bikes are optimised to make road cycling as efficient as possible, and because of that they’d perform terribly on a mountain dirt track.Instead, road bikes are designed to help cyclists get the most out of the road, including the particular geometry (i.e. frame shape) of the bike, the width of the tyres, and the weight of the components. And just in case you were wondering; You won’t be able to buy a road bike with skinny tyres and transform it into a mountain bike by putting big, knobbly tyres on. Mountain bike tyres just won’t fit on, full stop.</string>
+    <string name="rb_bold_characteristics">Defining characteristics:</string>
+    <string name="rb_characteristics">A lightweight frame, skinny tyres, drop handlebars (those are handlebars which curve back down underneath themselves) and a high gear ratio (i.e. The gears are set up to favour the ones that help you go really fast, if your legs and lungs are up to it.)</string>
+
+    <string name="electric_short_meaning">When you start pedalling, the motor ‘kicks in’ and gives you a push as if you had a fierce tailwind at your back, meaning you can essentially go anywhere at a steady pace without breaking a sweat. (Under UK legislation, the motor has to stop helping you once you hit 15.5mph, so you won’t get the chance to rocket uphill at 60mph just in case that was your intention.) The most popular models are hybrid/commuter bikes, but electric mountain bikes are also popular with those who love the downhill bit but aren’t so fond of the uphill, and now there are electric road bikes too.</string>
+    <string name="electric_bold_characteristics">Defining characteristics:</string>
+    <string name="electric_characteristics">A hybrid, mountain or road bike with a battery and a motor.</string>
+
+    <string name="folding_short_meaning">Folding bikes, of which the Brompton brand reigns supreme, are designed to fold up into a compact size so that you can store them away when you’re not using them, or cycle to the train or bus station and fold them up once you get there. They also fit neatly into a car or hall cupboard.</string>
+    <string name="folding_bold_characteristics">Defining characteristics:</string>
+    <string name="folding_characteristics">A folding frame and small wheels; a more upright geometry.</string>
+
+    <string name="gravel_short_meaning">Also simply known as ‘Gravel Bikes’, these are bikes which follow the tradition of road cyclists in the olden days, who would swap their slick road tyres for knobblier tyres and continue to train during the winter months. A gravel road bike could be the perfect year-round bike for you if you’re looking for a fast road bike that will cope with off-road excursions.</string>
+    <string name="gravel_bold_characteristics">Defining characteristics:</string>
+    <string name="gravel_characteristics"> The easiest to spot is the drop handlebars like a road bike, instead of the flat handlebars of a hybrid. Like a hybrid, there’s also enough clearance (space around the wheel) for knobblier tyres and mudguards. A gravel bike has more of a road bike feel than a hybrid does.</string>
+
+</resources>
