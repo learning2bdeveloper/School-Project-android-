@@ -1,0 +1,82 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ImageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bracelets" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup_bracelet_materials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ImageView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/goldBracelet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gold"
+            />
+
+
+
+        <RadioButton
+            android:id="@+id/silverBracelet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/silver"
+            />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup_bracelet_prices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup_bracelet_materials"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/retail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/retail"
+            />
+
+
+        <RadioButton
+            android:id="@+id/wholesale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wholesale"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_order_bracelet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/order"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ImageView7"
+        app:layout_constraintStart_toStartOf="@+id/ImageView7"
+        app:layout_constraintTop_toBottomOf="@+id/ImageView7"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

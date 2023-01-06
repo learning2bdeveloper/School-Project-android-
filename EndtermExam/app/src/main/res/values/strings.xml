@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Forever Gem</string>
+    <string name="csv">CSV</string>
+    <string name="gold">Gold</string>
+    <string name="order">Order</string>
+    <string name="silver">Silver</string>
+    <string name="retail">Retail</string>
+    <string name="wholesale">WholeSale</string>
+</resources>
